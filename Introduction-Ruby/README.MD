@@ -272,6 +272,3 @@ end
 ```
 
 These control flow mechanisms are fundamental for creating logic in Ruby applications, allowing for more dynamic and responsive code.
-```
-
-This markdown document provides a structured overview of basic Ruby control flow concepts, including examples for each. Adjustments can be made based on the specific requirements or details you'd like to include.

@@ -22,7 +22,7 @@ The variable name between | | can be anything you like: it’s just a placeholde
 ## Try out
 
 - Open the script.rb
-- Compile and run it
+- Compile and run at Ruby interpreter
 
 ```script.rb```
 

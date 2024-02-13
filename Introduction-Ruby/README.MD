@@ -272,3 +272,20 @@ end
 ```
 
 These control flow mechanisms are fundamental for creating logic in Ruby applications, allowing for more dynamic and responsive code.
+
+## Ruby Loops and Iteration Methods
+
+Ruby provides several ways to perform loops and iteration, allowing for efficient code that can execute repetitive tasks with ease. Here's an overview of the different methods and keywords used in Ruby for iteration and looping:
+
+## Ruby `.each` Method
+
+The `.each` method is commonly used to iterate over each element of an array. It's preferred over a `for` loop for its simplicity and direct association with the array it iterates over.
+
+```ruby
+data = [3, 6, 9, 12]
+
+data.each do |num|
+  puts "The number is: #{num}"
+end
+
+```

@@ -156,8 +156,6 @@ puts "Codecademy".downcase # codecademy
 ---
 
 
-```markdown
-
 ## Ruby Control Flow Statements
 
 This document covers basic control flow statements in Ruby, including conditional statements, logical operators, and comparison operators.

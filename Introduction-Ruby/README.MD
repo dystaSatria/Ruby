@@ -155,4 +155,125 @@ puts "Codecademy".downcase # codecademy
 
 ---
 
-Feel free to adjust the contents as necessary to fit your project or documentation needs!
+
+```markdown
+
+## Ruby Control Flow Statements
+
+This document covers basic control flow statements in Ruby, including conditional statements, logical operators, and comparison operators.
+
+## If, elsif, and else Statements
+
+In Ruby, conditional logic can be implemented using `if`, `elsif`, and `else` statements. This allows the program to execute different code blocks based on certain conditions.
+
+```ruby
+print "enter a number: "
+num = gets.chomp.to_i
+
+if num == 5
+  print "number is 5"
+elsif num == 10
+  print "number is 10"
+elsif num == 11
+  print "number is 11"
+else
+  print "number is something other than 5, 10, or 11"
+end
+```
+
+## The `not` Operator
+
+The `!` (not) operator is used to invert boolean values in Ruby.
+
+```ruby
+data = true
+puts !data # Output: false
+```
+
+## Else Statement
+
+An `else` statement in Ruby executes a block of code when the `if` condition evaluates to false.
+
+```ruby
+if number > 50
+  print "number is greater than 50"
+else
+  print "number is not greater than 50"  
+end
+```
+
+## Comparison Operators
+
+Ruby uses the following comparison operators to compare values:
+
+- `>` (greater than)
+- `<` (less than)
+- `>=` (greater than or equal to)
+- `<=` (less than or equal to)
+- `==` (equal to)
+
+```ruby
+a = 1
+b = 2
+c = 2
+
+puts a > b  # false
+puts a < b  # true
+puts b >= c # true
+puts a <= c # true
+puts b == c # true
+```
+
+## Or Operator
+
+The `||` operator returns true if either the left-hand side or right-hand side expression is true.
+
+```ruby
+grade1 = 50
+grade2 = 30
+grade3 = 80
+
+if grade1 > grade2 || grade1 > grade3
+  puts "Grade 1 is not the lowest score!"
+end
+```
+
+## If Statement
+
+An `if` statement evaluates an expression and executes a code block if the expression is true.
+
+```ruby
+number = 10
+if number == 10
+  puts "Your condition was true!"
+end
+```
+
+## And Operator
+
+The `&&` operator evaluates to true only if both expressions on either side are true.
+
+```ruby
+if score1 > score2 && score1 > score3
+  print "Score 1 is the greatest in value."
+else
+  print "Score 1 is not the greatest in value."
+end
+```
+
+## Unless Statement
+
+An `unless` statement executes a block of code if the given condition is false.
+
+```ruby
+print "Enter a number"
+number = gets.to_i
+unless number >= 10
+  puts "number is less than 10."
+end
+```
+
+These control flow mechanisms are fundamental for creating logic in Ruby applications, allowing for more dynamic and responsive code.
+```
+
+This markdown document provides a structured overview of basic Ruby control flow concepts, including examples for each. Adjustments can be made based on the specific requirements or details you'd like to include.

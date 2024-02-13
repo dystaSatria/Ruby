@@ -289,3 +289,163 @@ data.each do |num|
 end
 
 ```
+
+Output:
+
+```console
+The number is: 3
+The number is: 6
+The number is: 9
+The number is: 12
+
+```
+
+## Ruby next Keyword
+
+The next keyword is used to skip the current iteration and move to the next one. It's particularly useful when you want to skip certain elements based on a condition.
+
+```ruby
+for i in 1..10
+  next if i % 2 == 0
+  puts i
+end
+```
+Output:
+
+```console
+1
+3
+5
+7
+9
+```
+
+## Ruby while Loop
+The while loop runs as long as its condition remains true. It's essential to alter the condition within the loop to prevent an infinite loop.
+
+```ruby
+i = 1
+
+while i <= 3 do
+  puts "Message number #{i}"
+  i += 1
+end
+```
+
+Output:
+
+```mathematica
+
+Message number 1
+Message number 2
+Message number 3
+```
+
+## Ruby times Method
+The times method executes a block of code a specified number of times.
+
+```ruby
+5.times { puts "Codecademy" }
+```
+Output:
+
+```console
+Codecademy
+Codecademy
+Codecademy
+Codecademy
+Codecademy
+```
+
+## Ruby Range
+Ranges in Ruby can be either inclusive or exclusive and are used to create sequences of numbers.
+
+
+```ruby
+(3..5).each do |i|
+  puts i
+end
+```
+
+Output:
+
+```console
+3
+4
+5
+```
+
+## Exclusive Range
+
+```ruby
+
+(3...5).each do |i|
+  puts i
+end
+```
+Output:
+
+```console
+3
+4
+```
+
+The loop method creates an infinite loop, which must be manually exited with a break.
+
+```ruby
+num = 1
+loop do
+  puts "We are in the loop!"
+  num += 1
+  break if num > 3
+end
+
+puts "We have exited the loop!"
+```
+
+Output:
+
+```console
+We are in the loop!
+We are in the loop!
+We are in the loop!
+We have exited the loop!
+```
+
+## Ruby until Loop
+The until loop continues as long as its condition is false and stops when the condition becomes true.
+
+```ruby
+i = 1
+
+until i == 4 do
+  puts "Message number #{i}"
+  i += 1
+end
+```
+
+Output:
+
+```mathematica
+Message number 1
+Message number 2
+Message number 3
+```
+## Ruby for Loop
+The for loop in Ruby repeats a block of code a set number of times, based on a range.
+
+```ruby
+
+for i in 1..3 do
+  puts "Message number #{i}"
+end
+```
+Output:
+
+```mathematica
+
+Message number 1
+Message number 2
+Message number 3
+```
+This overview covers the primary methods and constructs for performing loops and iterations in Ruby, each serving different use cases and preferences in code structure.

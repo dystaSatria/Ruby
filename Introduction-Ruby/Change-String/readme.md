@@ -21,20 +21,20 @@ Copy code
 user_input.downcase!
 .downcase! modifies the original string in place, converting all uppercase letters to lowercase. This is to ensure that the search for "s" is case-insensitive.
 Checking for the Presence of "s" and Transforming
-ruby
-Copy code
+```ruby
 if user_input.include? "s"
   user_input.gsub!(/s/, "th")
   puts "Transformed string: #{user_input}"
 else
   puts "There is no 's' character in your string."
 end
+```
 if user_input.include? "s" checks if the user's input contains the letter "s". The include? method returns true if the substring exists within the string, and false otherwise.
 If the condition is true, user_input.gsub!(/s/, "th") is executed:
 .gsub! is a method that performs global substitution within the string. It takes two arguments: the pattern to match (in this case, the letter "s") and the string to replace it with ("th"). The method modifies the original string.
 /s/ is a regular expression that matches the letter "s".
 If the condition is false (meaning the input does not contain "s"), the script outputs a message indicating the absence of the character "s".
-Output
+## Output
 The script either outputs the transformed string (where all instances of "s" have been replaced with "th") or informs the user that there is no "s" character in their input, depending on the user's original input.
 
 Conclusion

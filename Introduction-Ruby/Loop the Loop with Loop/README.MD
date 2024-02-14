@@ -15,7 +15,7 @@ Use the loop iterator to print out the string "Ruby!" 30 times.
 ```ruby
 i = 0
 loop do
-  print "Ruby!"
+  print "Ruby!\n"
   i += 1
   break if i == 30
 end

@@ -6,6 +6,10 @@ Iterate through .each key/value pair in lunch_order.
 
 Please puts out the value of each pair (just the value, not the key).
 
+## Solve
+
+```script.rb```
+
 ```ruby
 lunch_order = {
   "Ryan" => "wonton soup",
@@ -20,3 +24,11 @@ lunch_order.each do |name, order|
 end
 
 ```
+
+```console
+wonton soup
+hamburger
+sandwich
+salad
+taco
+``

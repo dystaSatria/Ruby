@@ -99,6 +99,3 @@ So am I!
 So am I!
 ```
 Blocks are fundamental for iterative operations and passing chunks of code to methods.
-```
-
-This markdown provides a concise overview of several Ruby concepts, including comparison operators, method splats, block parameters, return values, sorting methods, parameters vs. arguments, method definitions, and code blocks. It's structured to be inserted into a README.MD file for easy reference.

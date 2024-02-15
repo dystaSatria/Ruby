@@ -4,6 +4,7 @@ What if we wanted to sort the books by title, but from Z – A, or descending or
 
 The sort method assumes by default that you want to sort in ascending order, but it accepts a block as an optional argument that allows you, the programmer, to specify how two items should be compared.
 
+```script.rb```
 ```ruby
 books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
 

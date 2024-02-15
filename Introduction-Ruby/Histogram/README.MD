@@ -13,4 +13,4 @@ plain 1
 Spain 1
 ```
 
-A visual representation of data like this is called a histogram.
+A visual representation of data like this is called a **histogram**.

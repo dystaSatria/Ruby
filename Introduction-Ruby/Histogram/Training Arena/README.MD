@@ -1,8 +1,11 @@
 # Training Area
 
-## Problem : Frequency Word at Array
+<br>
+<br>
 
-## Solve  
+## Problem 1 : Frequency Word at Array
+
+## Solve 1
 
 ```script.rb```
 

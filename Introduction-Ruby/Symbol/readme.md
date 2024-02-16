@@ -21,6 +21,7 @@ Comparing symbols is faster than comparing strings because Ruby compares their i
 
 ## Example Usage
 
+```script.rb```
 ```ruby
 # Using symbols as hash keys
 user = { :name => "Alice", :age => 30 }

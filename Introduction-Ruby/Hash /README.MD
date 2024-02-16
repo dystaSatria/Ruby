@@ -2,6 +2,7 @@
 
 Recall that hashes are collections of key-value pairs, where a unique key is associated with some value. For example:
 
+```script.rb```
 ```ruby
 breakfast = { 
   "bacon" => "tasty",
@@ -25,4 +26,15 @@ and
 2. hash constructor notation:
 ```ruby
 new_hash = Hash.new
+```
+
+# HASH ROCKET
+```script2.rb```
+
+```ruby
+movies = {
+ one: "1.9",
+ two: "2"
+
+}
 ```

@@ -55,7 +55,7 @@ Ruby provides two methods to convert a string into a symbol, demonstrating the l
   # ==> :example
 
   ```
-- **Using `.intern` **
+- **Using `.intern`**
 
 Alternatively, the .intern method internalizes the string into a symbol. It works just like .to_sym, but the term "intern" comes from the concept of internalizing the string representation into a symbol.
 

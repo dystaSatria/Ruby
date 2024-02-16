@@ -1,10 +1,10 @@
 # Ordering Library
 
-# Instruksi Pengurutan Array Fruits
+## Instruksi Pengurutan Array Fruits
 
 Untuk mengurutkan array `fruits` dalam urutan alfabet terbalik (descending) di Ruby, Anda dapat menggunakan metode `.sort!` dengan blok yang membandingkan elemen menggunakan operator kombinasi perbandingan (`<=>`). Berikut adalah contoh cara melakukan ini:
 
-## Code
+```script.rb```
 
 ```ruby
 fruits = ["orange", "apple", "banana", "pear", "grapes"]
@@ -36,7 +36,7 @@ _____________________________________________________________
 
 The `alphabetize` method is designed to sort the elements of an array. You can specify whether the sorting is done in ascending or descending order through the second parameter. By default, this method will sort the array in ascending order if no second parameter is provided.
 
-## Usage
+```script2.rb```
 
 Here is the definition and usage of the `alphabetize` method:
 

@@ -28,3 +28,4 @@ apple
 
 Dengan menggunakan blok { |a, b| b <=> a }, kita membalik urutan a dan b dalam perbandingan, yang mengubah urutan pengurutan dari urutan naik (ascending) default menjadi urutan turun (descending).
 
+_____________________________________________________________

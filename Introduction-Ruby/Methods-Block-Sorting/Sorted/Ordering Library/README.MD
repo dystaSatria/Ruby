@@ -14,14 +14,17 @@ fruits.sort! { |a, b| b <=> a }
 
 # Menampilkan hasil
 puts fruits
-Output
-Menjalankan kode di atas akan menghasilkan output sebagai berikut:
+```
 
-Copy code
+Output :
+
+```console
 pear
 orange
 grapes
 banana
 apple
+```
+
 Dengan menggunakan blok { |a, b| b <=> a }, kita membalik urutan a dan b dalam perbandingan, yang mengubah urutan pengurutan dari urutan naik (ascending) default menjadi urutan turun (descending).
 

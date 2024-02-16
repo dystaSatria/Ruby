@@ -66,5 +66,31 @@ Alternatively, the .intern method internalizes the string into a symbol. It work
 When to Use .to_sym vs. .intern
 Both methods perform the same underlying operation, so your choice between .to_sym and .intern may depend on personal or team preference, readability, or the convention within a particular codebase. When reading or maintaining Ruby code, it's important to recognize that these two methods are interchangeable, serving as a perfect example of Ruby's principle that there are always many ways of accomplishing something.
 
+## String Vs Symbol
+
+```script3.rb```
+```ruby
+require 'benchmark'
+
+string_AZ = Hash[("a".."z").to_a.zip((1..26).to_a)]
+symbol_AZ = Hash[(:a..:z).to_a.zip((1..26).to_a)]
+
+string_time = Benchmark.realtime do
+  100_000.times { string_AZ["r"] }
+end
+
+symbol_time = Benchmark.realtime do
+  100_000.times { symbol_AZ[:r] }
+end
+
+puts "String time: #{string_time} seconds."
+puts "Symbol time: #{symbol_time} seconds."
+```
+Output 
+```ruby
+String time: 0.00798518599185627 seconds.
+Symbol time: 0.005242496990831569 seconds.
+```
+
 ## Conclusion
 Ruby's flexibility in allowing multiple methods to achieve the same result is a boon for developers, offering the freedom to choose the most appropriate, readable, or conventional method for the task at hand. Whether you prefer .to_sym or .intern for converting strings to symbols, the important thing is understanding the functionality and knowing that either choice is valid in Ruby.

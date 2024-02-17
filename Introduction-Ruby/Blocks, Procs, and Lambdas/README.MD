@@ -1,4 +1,6 @@
-# Ruby Concepts Overview
+# Blocks, Procs, and Lambdas
+
+<br><br>
 
 ## Ruby .call Method
 In Ruby, both procs and lambdas can be invoked using the `.call` method. This allows for a direct execution of the proc or lambda's block of code.

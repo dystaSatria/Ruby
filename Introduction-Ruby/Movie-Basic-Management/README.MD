@@ -21,7 +21,6 @@ display: Display all movies and their ratings.
 delete: Delete a movie from the system.
 ```
 
-Examples
 ## Adding a Movie
 ```vbnet
 What would you like to do?

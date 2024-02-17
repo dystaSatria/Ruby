@@ -70,10 +70,8 @@ A proc in Ruby is an object of class `Proc` which can be stored in a variable an
 square = Proc.new { |x| x ** 2 }
 
 [2, 4, 6].collect!(&square)
-# Outputs: [4, 16, 36]
+Outputs: [4, 16, 36]
 ```
 
 Procs and lambdas in Ruby offer powerful ways to write flexible and reusable code blocks, while methods like `.collect` and keywords like `yield` provide expressive ways to manipulate and control the flow of data and execution.
-```
 
-This summary captures key Ruby concepts including the use of `.call`, lambdas, the `.collect` method, the `yield` keyword, and procs, all of which are instrumental in Ruby programming for data manipulation, method execution flow, and functional programming patterns.

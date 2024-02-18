@@ -33,3 +33,8 @@ print ints
 ```console
 [1, 3, 0, 7, 11, 482]
 ```
+
+## Benefit of Procs than Blocks
+
+- Procs are full-fledged objects, so they have all the powers and abilities of objects. (Blocks do not.)
+- Unlike blocks, procs can be called over and over without rewriting them. This prevents you from having to retype the contents of your block every time you need to execute a particular bit of code.

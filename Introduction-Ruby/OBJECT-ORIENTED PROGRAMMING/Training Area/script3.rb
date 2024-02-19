@@ -9,13 +9,11 @@ class Message
 end
 
 class Email < Message
-  def initialize(from, to)
-    super(from, to) # Passes from and to to the Message's initialize method
+  def initialize(from,to)
+    super(from,to)
   end
 end
 
 # Example of creating a Message instance
 my_message = Message.new("Reza", "Tata")
-
-# Creating an Email instance with from and to
-my_email = Email.new("Reza", "Tata")
+my_email = Email.new("Reza","Adit")

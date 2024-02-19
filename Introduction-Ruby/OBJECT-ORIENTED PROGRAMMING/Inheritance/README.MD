@@ -1,4 +1,4 @@
-```markdown
+
 # Inheritance Concept in Ruby
 
 Inheritance is a cornerstone concept in object-oriented programming (OOP), including in the Ruby programming language. It allows a class (known as the subclass) to inherit attributes and methods from another class (the superclass), facilitating code reuse and making the code structure more organized and modular.
@@ -55,6 +55,5 @@ In the example above, `CartoonFox` inherits the `breathe` method from `CartoonMa
 
 Inheritance allows developers to create cleaner code structures and reduce duplication by reusing existing code. In Ruby, inheritance is straightforward to implement and use, making it a powerful tool in the creation of object-oriented applications.
 
-```
 
 This content is structured to provide a clear understanding of inheritance in Ruby, illustrating its definition, functionality, and practical application with an example. You can save this text into a README.md file as part of your project's documentation to explain how inheritance works in Ruby to anyone reviewing your code or learning from your project.

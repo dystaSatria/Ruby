@@ -25,6 +25,7 @@ end
 
 For instance, we have a `CartoonMammal` class representing mammals in cartoons, and we want to create a `CartoonFox` class as a specialization of `CartoonMammal`.
 
+```script.rb```
 ```ruby
 class CartoonMammal
   def breathe
@@ -47,6 +48,23 @@ foxy = CartoonFox.new
 foxy.breathe  # Output: inhale and exhale
 foxy.speak    # Output: What does the fox say?
 
+```
+
+## Example of Inheritance in Ruby 2
+
+```script2.rb```
+```rb
+lass ApplicationError
+  def display_error
+    puts "Error! Error!"
+  end
+end
+
+class SuperBadError < ApplicationError
+end
+
+err = SuperBadError.new
+err.display_error
 ```
 
 In the example above, `CartoonFox` inherits the `breathe` method from `CartoonMammal` but overrides the `speak` method to suit the specific behavior of a fox.

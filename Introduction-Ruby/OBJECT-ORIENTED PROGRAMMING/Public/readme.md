@@ -12,3 +12,24 @@ class ClassName
 end
 ```
 Note that everything after the public keyword through the end of the class definition will now be public unless we say otherwise. (We’ll say otherwise in the next exercise.)
+
+## Example
+
+```script.rb```
+```ruby
+class Dog
+  def initialize(name, breed)
+    @name = name
+    @breed = breed
+  end
+
+
+  public def bark
+    puts "Woof!"
+  end
+end
+
+my_dog = Dog.new("Rex", "Labrador")
+my_dog.bark
+
+```

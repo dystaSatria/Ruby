@@ -26,3 +26,10 @@ jiminy = Cricket.new("Jiminy")
 
 peter.jump
 jiminy.jump
+
+=begin
+Output : 
+
+I jumped forward 2 feet!
+I jumped forward 3 feet!
+=end

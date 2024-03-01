@@ -31,7 +31,7 @@ Once Ruby is installed, follow these steps:
 
 ## License
 
-This program is free to use and distribute under the MIT License. For more information, please see the included `LICENSE` file.
+This program is free to use and distribute under the MIT License. For more information, please see the included [LICENSE]() file.
 
 ## Contributing
 

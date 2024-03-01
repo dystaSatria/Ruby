@@ -20,7 +20,7 @@ To run this program, you must have Ruby installed on your system. If you do not 
 
 Once Ruby is installed, follow these steps:
 
-1. Download this folder
+1. Download the code at ```bmi_calculator.rb```
 2. Open a terminal or c
 3. Run the command `ruby bmi_calculator.rb`.
 4. Follow the on-screen prompts to enter your weight and height.

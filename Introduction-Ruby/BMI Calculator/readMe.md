@@ -1,4 +1,4 @@
-# Ruby BMI Calculatorjjj
+# Ruby BMI Calculatorjj
 
 This code is a simple Ruby script that calculates and categorizes Body Mass Index (BMI) based on user input for weight and height.
 
